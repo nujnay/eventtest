@@ -1,0 +1,7 @@
+123456
+key0
+
+
+
+keytool -exportcert -alias androiddebugkey -keystore "F:\mygithub\EventTest\sign\123.jks" | "E:\Program Files (x86)\openssl-0.9.8k_WIN32\bin\openssl" sha1 -binary | "E:\Program Files (x86)\openssl-0.9.8k_WIN32\bin\openssl" base64
+

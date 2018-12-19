@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "386117776302",
+    "firebase_url": "https://eventtest-a1c07.firebaseio.com",
+    "project_id": "eventtest-a1c07",
+    "storage_bucket": "eventtest-a1c07.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386117776302:android:77bfea4250761524",
+        "android_client_info": {
+          "package_name": "com.nujnay.eventtest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "386117776302-1eenrn3mcrg9q0d4nckjd3angiqvh5pv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBG7nx9AhihlsxeZDQkb8oCuS_T3ilAmTo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
