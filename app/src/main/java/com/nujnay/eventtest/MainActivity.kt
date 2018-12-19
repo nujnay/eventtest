@@ -8,10 +8,11 @@ import com.facebook.FacebookSdk;
 import com.facebook.appevents.AppEventsLogger;
 import android.util.StatsLog.logEvent
 import android.R.attr.name
+import com.crashlytics.android.answers.Answers
+import com.crashlytics.android.answers.CustomEvent
 
 
-
-class MainActivity : AppCompatActivity() {
+    class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -31,12 +32,15 @@ class MainActivity : AppCompatActivity() {
             params.putString("a111", "a111")
             mFirebaseAnalytics.logEvent("share_image", params)
             logger.logEvent("1111111")
+            Answers.getInstance().logCustom(CustomEvent("1111111"))
+
         }
         tv_1.setOnClickListener {
             val params = Bundle()
             params.putString("a111", "a111")
             mFirebaseAnalytics.logEvent("share_image_3343", params)
             logger.logEvent("22222")
+            Answers.getInstance().logCustom(CustomEvent("22222"))
         }
     }
 }

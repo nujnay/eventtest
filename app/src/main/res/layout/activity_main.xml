@@ -12,11 +12,11 @@
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:gravity="center"
-        android:text="Hello World!" />
+        android:text="点我" />
     <TextView
         android:id="@+id/tv_1"
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:gravity="center"
-        android:text="Hello World!" />
+        android:text="点点我嘛" />
 </LinearLayout>
