@@ -5,7 +5,7 @@ import android.os.Bundle
 import com.google.firebase.analytics.FirebaseAnalytics
 import kotlinx.android.synthetic.main.activity_main.*
 import com.facebook.FacebookSdk;
-import com.facebook.appevents.AppEventsLogger;
+import com.facebook.appevents.AppEventsLogger
 import android.util.StatsLog.logEvent
 import android.R.attr.name
 import com.crashlytics.android.answers.Answers
